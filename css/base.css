@@ -164,9 +164,10 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 	
 	/*product*/
 	.product{padding:30px 0px;}
-	.product h3{font-size:25px;margin-bottom:8px; line-height:50px;}
+	.product h3{ height:50px;font-size:25px;margin-bottom:8px; line-height:50px;}
 	.product h3:before{ height: 25px;}
 	.product .product_slide .swiper-button-next,.product .product_slide .swiper-button-prev{display:none;}
+	.product .w1280 .product_list{width:100%;display: grid;grid-column-gap: 20px;grid-row-gap: 40px;grid-template-columns: repeat(2, 1fr);}
 	
 	/*sns*/
 	.sns{padding:50px 0px 80px;}
