@@ -57,7 +57,7 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 /*visual*/
 .visual{position:relative; top:0; left:0; right:0;}
 .visual .main_slide{width: 100%;height:100vh;overflow: hidden;}
-.visual .main_slide .swiper-pagination-bullet{width:18px; height:3px; border:1px solid #fff;background:none; border-radius:0;opacity:1;}
+.visual .main_slide .swiper-pagination-bullet{width:20px; height:2px;background:rgba(255,255,255,0.3); border-radius:0;opacity:1;}
 .visual .main_slide .swiper-pagination-bullet-active{background:#fff;}
 .visual .main_slide .swiper-wrapper .swiper-slide div{position:relative;width:100%; height:100%;background-size: cover;background-position: left center;background-repeat:no-repeat;}
 .visual .main_slide .swiper-wrapper .swiper-slide .bg1{background-image:url(../img/main_bg01.jpg);}
@@ -132,7 +132,7 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 /*모바일*/
 @media (max-width:1024px){
 	body{font-size:12px;}
-	.name{font-size:12px; font-weight:normal;}
+	.name{font-size:12px; font-weight:500;}
 	/*header*/
 	header .h_wrap{height:70px; line-height:70px; }
 	header .h_wrap nav{display:none;}
@@ -170,9 +170,8 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 	/*product*/
 	.product{padding:30px 0px ;margin-bottom: 50px;}
 	.product .sub{padding-left:18px;}
-	.product .sub:before{width:14px; height:14px; background:url(../img/bg3_txt_1.png)no-repeat;filter: invert(1);background-size:100%;}
-	.product h3{ height:40px;font-size:16px;margin-bottom:5px; line-height:40px;font-weight:600;padding-left:10px;}
-	.product h3:before{ width:4px;height: 17px;}
+	.product .sub:before{width:15px; height:15px; background:url(../img/bg3_txt_1.png)no-repeat;filter: invert(1);background-size:100%;}
+	.product h3{ height:40px;font-size:18px;margin-bottom:5px; line-height:40px;font-weight:600;padding-left:20px;}
 	.product .product_slide .swiper-button-next,.product .product_slide .swiper-button-prev{display:none;}
 	.product .w1280 .product_list{width:100%;display: grid;grid-column-gap: 5px;grid-row-gap: 40px;grid-template-columns: repeat(2, 1fr);}
 	.more_btn{display:inline-block;padding:6px 10px; background:#222; color:#fff;margin-top:5px;font-size:10px;}
