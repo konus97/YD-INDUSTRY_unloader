@@ -106,7 +106,7 @@ $(function(){
       // 클릭된 서브 메뉴를 펼침
       subMenu.slideDown();
       // 클릭된 링크의 색상 변경
-      $(this).css({color: "rgb(63, 188, 210)"});
+      $(this).css({color: "#af2b14"});
       // 다른 링크의 색상 초기화
       $(".m_menu_wrap > li > h3").not(this).css({color: "#fff"});
   } else {
