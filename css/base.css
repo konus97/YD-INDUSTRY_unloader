@@ -110,7 +110,7 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 /*subpage*/
 .sub_banner{position:relative; width:100%; height:480px;}
 .sub_banner .outer_bg{width:100%; height:100%;background:url(../img/br10.jpg)no-repeat;background-size:cover;background-position:center center;}
-.sub_banner h2{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);font-size:50px; color:rgba(255,255,255,0.9); font-weight:800;letter-spacing:1.5px;}
+.sub_banner h2{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);font-size:35px; color:rgba(255,255,255,0.9); font-weight:800;letter-spacing:1.5px;}
 
 /*subpage product*/
 .product .sub{padding-left:28px;}
@@ -131,13 +131,15 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 
 /*모바일*/
 @media (max-width:1024px){
-	
+	body{font-size:12px;}
+	.name{font-size:12px; font-weight:normal;}
 	/*header*/
+	header .h_wrap{height:70px; line-height:70px; }
 	header .h_wrap nav{display:none;}
 	header .h_wrap .h_logo{margin-left:30px;}
-	header .h_wrap .h_logo a img{display:block;width:150px;}
-	header .h_wrap .m_menu_btn{width:25px; height:20px;display: flex;flex-direction: column;justify-content: space-between;margin-right:30px;cursor:pointer;}
-	header .h_wrap .m_menu_btn li{width:100%; height:3px; border-radius:15px; background:#fff;}
+	header .h_wrap .h_logo a img{display:block;width:140px;}
+	header .h_wrap .m_menu_btn{width:20px; height:15px;display: flex;flex-direction: column;justify-content: space-between;margin-right:30px;cursor:pointer;}
+	header .h_wrap .m_menu_btn li{width:100%; height:2px; border-radius:15px; background:#fff;}
 	header .h_wrap .m_click_menu{display:none;position:fixed; top:0;left:0; right:0; bottom:0;background:#000;}
 	header .h_wrap .m_click_menu .m_close_btn{position:absolute; top:20px; right:20px;width:20px; height:20px;cursor:pointer;}
 	header .h_wrap .m_click_menu .m_close_btn img{display:block;width:100%; height:100%;}
@@ -153,7 +155,8 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 	header .h_wrap .m_click_menu .m_menu_wrap li img {object-fit:cover;}
 	
 	/*header.down*/
-	header.down .h_wrap .h_logo a img{width:150px;}
+	header.down .h_wrap {height:70px; line-height:70px;}
+	header.down .h_wrap .h_logo a img{width:140px;}
 	header.down .h_wrap .m_menu_btn li{background:#000;}
 	
 	/*visual*/
@@ -166,26 +169,30 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 	
 	/*product*/
 	.product{padding:30px 0px;}
-	.product h3{ height:50px;font-size:25px;margin-bottom:8px; line-height:50px;}
-	.product h3:before{ height: 25px;}
+	.product .sub{padding-left:18px;}
+	.product .sub:before{width:14px; height:14px; background:url(../img/bg3_txt_1.png)no-repeat;filter: invert(1);background-size:100%;}
+	.product h3{ height:40px;font-size:14px;margin-bottom:5px; line-height:40px;font-weight:600;padding-left:10px;}
+	.product h3:before{ width:4px;height: 17px;}
 	.product .product_slide .swiper-button-next,.product .product_slide .swiper-button-prev{display:none;}
-	.product .w1280 .product_list{width:100%;display: grid;grid-column-gap: 20px;grid-row-gap: 40px;grid-template-columns: repeat(2, 1fr);}
+	.product .w1280 .product_list{width:100%;display: grid;grid-column-gap: 5px;grid-row-gap: 40px;grid-template-columns: repeat(2, 1fr);}
+	.more_btn{display:inline-block;padding:6px 10px; background:#222; color:#fff;margin-top:5px;font-size:10px;}
+	.txt{padding-top:5px;}
 	
 	/*sns*/
 	.sns{padding:50px 0px 80px;}
 	.sns > *{max-width:85%; margin:0 auto;}
 	.sns .sns_link {width:100%;height:20px;margin-bottom:20px;}
 	.sns .sns_link img{width:20px; height:20px;}
-	.sns .sns_link > a{font-size:14px;}
+	.sns .sns_link > a{font-size:12px; font-weight:500;}
 	.sns .banner{grid-template-columns: repeat(3, 1fr);}
 	.sns .banner li:last-child{display:none;}
 	
 	/*footer*/
-	#footer footer{padding:30px 20px;font-weight:500;border-top:1px solid #000;}
+	#footer footer{padding:30px 20px;font-weight:500;border-top:1px solid #000;font-size:11px;letter-spacing: -.3px;}
 	#footer footer address{flex-direction: column;}
-	#footer footer address h3{font-size:16px;}
+	#footer footer address h3{font-size:14px;}
 	#footer footer address .link{margin:15px 0px;border-bottom: 1px dashed;padding-bottom:15px;}
-	#footer footer address .link a{width:150px;font-size:12px;display: inline-block;margin-right:5px;}
+	#footer footer address .link a{width:150px;font-size:11px;display: inline-block;margin-right:5px;}
 	
 	#footer footer .copyright{flex-direction: column-reverse;}
 	#footer footer .copyright a{width:220px; height:50px;}
