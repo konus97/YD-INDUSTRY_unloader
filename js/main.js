@@ -81,6 +81,21 @@ $(document).ready(function() {
       $header.toggleClass('down', scrolled); 
   });
 
+  //서브페이지 더보기 버튼
+$(function(){
+  $(".product_list li").slice(0, 4).show(); // 초기갯수
+  
+  $("#load").click(function(e){ // 클릭시 more
+      e.preventDefault();
+      $(".product_list li:hidden").slice(0, 8).show(); // 클릭시 more 갯수 지정
+      
+      // 더 이상 더보기 할 개수가 없는 경우 더보기 버튼 숨기기
+      if ($(".product_list li:hidden").length === 0) {
+          $(this).hide();
+      }
+  });
+});
+
   //모바일에서만 실행
   if ($(window).width() <= 1024) {
   $(".m_menu_wrap > li > h3").on("click", function(){
@@ -112,5 +127,6 @@ $(document).ready(function() {
   });
 
 }
+
 
 });
