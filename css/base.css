@@ -189,11 +189,11 @@ header.down .h_wrap .h_logo a img{width:190px;filter:invert(0)!important;}
 	.sns .banner li:last-child{display:none;}
 	
 	/*footer*/
-	#footer footer{padding:30px 20px;font-weight:500;border-top:1px solid #000;font-size:11px;letter-spacing: -.3px;}
+	#footer footer{padding:30px 20px;font-weight:normal;border-top:1px solid #000;font-size:11px;letter-spacing: -.3px;}
 	#footer footer address{flex-direction: column;}
 	#footer footer address h3{font-size:14px;}
 	#footer footer address .link{margin:15px 0px;border-bottom: 1px dashed;padding-bottom:15px;}
-	#footer footer address .link a{width:150px;font-size:11px;display: inline-block;margin-right:5px;}
+	#footer footer address .link a{width:150px;font-size:11px;display: inline-block;margin-right:5px;font-weight: 500;}
 	
 	#footer footer .copyright{flex-direction: column-reverse;}
 	#footer footer .copyright a{width:220px; height:50px;}
