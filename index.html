@@ -14,243 +14,132 @@
     <script>
         $(function(){
             
+            $("#header").load("header.html");
             $("#footer").load("footer.html");
         });
     </script>
 </head>
 <body>
-    <header>
-        <div class="h_wrap">
-            <h1 class="h_logo">
-                <a href="index.html">
-                    <img src="img/logo_black_icon.png" alt="언로더">
-                </a>
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="subpage.html">OUTER</a>
+    <div class="wrap">
+        <div id="header"></div>
+        <section class="visual">
+            <div class="swiper main_slide">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="bg1">
+                            <img class="bg_txt" src="img/bg1_txt.png">
+                        </div>
                     </li>
-                    <li>
-                        <a href="loading.html">TOP</a>
+                    <li class="swiper-slide">
+                        <div class="bg2"></div>
                     </li>
-                    <li>
-                        <a href="loading.html">BOTTOM</a>
-                    </li>
-                    <li>
-                        <a href="loading.html">BAG</a>
-                    </li>
-                    <li>
-                        <a href="loading.html">HEADWEAR</a>
-                    </li>
-                    <li>
-                        <a href="loading.html">ETC</a>
-                    </li>
-                    <li>
-                        <a href="brand.html">BRAND</a>
+                    <li class="swiper-slide">
+                        <div class="bg3">
+                            <img class="bg_txt" src="img/bg3_txt.png">
+                        </div>
                     </li>
                 </ul>
-            </nav>
-            <ul class="m_menu_btn">
-                <li></li>
-                <li></li>
-                <li></li>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="product">
+            <h3 class="sub">Supplies</h3>
+            <div class="swiper product_slide">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a class="product_group">
+                            <img src="img/product2.jpg">
+                            <div class="txt">
+                                <p class="name">Duffel Bag</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a class="product_group">
+                            <img src="img/product2.jpg">
+                            <div class="txt">
+                                <p class="name">Duffel Bag</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a class="product_group">
+                            <img src="img/product2.jpg">
+                            <div class="txt">
+                                <p class="name">Duffel Bag</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a class="product_group">
+                            <img src="img/product2.jpg">
+                            <div class="txt">
+                                <p class="name">Duffel Bag</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a class="product_group">
+                            <img src="img/product2.jpg">
+                            <div class="txt">
+                                <p class="name">Duffel Bag</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a class="product_group">
+                            <img src="img/product2.jpg">
+                            <div class="txt">
+                                <p class="name">Duffel Bag</p>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="sns">
+            <div class="sns_link">
+                <img src="img/icon-instar.png">
+                <a href="https://www.instagram.com/unloader_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@unloader_official</a>
+            </div>
+            <ul class="banner">
+                <li>
+                    <img src="img/br08.jpg">
+                </li>
+                <li>
+                    <img src="img/br01.JPG">
+                </li>
+                <li>
+                    <img src="img/br03.JPG">
+                </li>
+                <li>
+                    <img src="img/br04.JPG">
+                </li>
+                <li>
+                    <img src="img/br06.JPG">
+                </li>
+                <li>
+                    <img src="img/br10.jpg">
+                </li>
+                <li>
+                    <img src="img/br07.jpg">
+                </li>
+                <li>
+                    <img src="img/br05.JPG">
+                </li>
+                <li>
+                    <img src="img/br09.jpg">
+                </li>
+                <li>
+                    <img src="img/br02.JPG">
+                </li>
             </ul>
-            <div class="m_click_menu">
-                <div class="m_close_btn">
-                    <img src="img/ico_banner_close.png">
-                </div>
-                <ul class="m_menu_wrap">
-                    <li>
-                        <h3>OUTER</h3>
-                        <ul class="sub_menu">
-                            <li><a href="subpage.html">Jacket</a></li>
-                            <li><a href="loading.html">Zip hoodie</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>TOP</h3>
-                        <ul class="sub_menu">
-                            <li><a href="loading.html">T-shirt</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>BOTTOM</h3>
-                        <ul class="sub_menu">
-                            <li><a href="loading.html">Under<br>construction</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>BAG</h3>
-                        <ul class="sub_menu">
-                            <li><a href="loading.html">Duffel bag</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>HEADWEAR</h3>
-                        <ul class="sub_menu">
-                            <li><a href="loading.html">Cap</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>ETC</h3>
-                        <ul class="sub_menu">
-                            <li><a href="loading.html">Under<br>construction</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>BRAND</h3>
-                        <ul class="sub_menu">
-                            <li><a href="brand.html">About<br>'UNLOADER'</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="pc_hover_menu">
-            <div class="pc_hover_nav">
-                <ul>
-                    <li><a href="subpage.html">Jacket</a></li>
-                    <li><a href="loading.html">Zip hoodie</a></li>
-                </ul>
-                <ul>
-                    <li><a href="loading.html">T-shirt</a></li>
-                </ul>
-                <ul>
-                    <li><a href="loading.html">Under<br>construction</a></li>
-                </ul>
-                <ul>
-                    <li><a href="loading.html">Duffel bag</a></li>
-                </ul>
-                <ul>
-                    <li><a href="loading.html">Cap</a></li>
-                </ul>
-                <ul>
-                    <li><a href="loading.html">Under<br>construction</a></li>
-                </ul>
-                <ul>
-                    <li><a href="loading.html">About<br>'UNLOADER'</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
+        </section>
+        <div id="footer"></div>
+    </div>
     
-    <section class="visual">
-        <div class="swiper main_slide">
-            <ul class="swiper-wrapper">
-                <li class="swiper-slide">
-                    <div class="bg1">
-                        <img class="bg_txt" src="img/bg1_txt.png">
-                    </div>
-                </li>
-                <li class="swiper-slide">
-                    <div class="bg2"></div>
-                </li>
-                <li class="swiper-slide">
-                    <div class="bg3">
-                        <img class="bg_txt" src="img/bg3_txt.png">
-                    </div>
-                </li>
-            </ul>
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
-    <section class="product">
-        <h3 class="sub">Supplies</h3>
-        <div class="swiper product_slide">
-            <ul class="swiper-wrapper">
-                <li class="swiper-slide">
-                    <a class="product_group">
-                        <img src="img/product2.jpg">
-                        <div class="txt">
-                            <p class="name">Duffel Bag</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="swiper-slide">
-                    <a class="product_group">
-                        <img src="img/product2.jpg">
-                        <div class="txt">
-                            <p class="name">Duffel Bag</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="swiper-slide">
-                    <a class="product_group">
-                        <img src="img/product2.jpg">
-                        <div class="txt">
-                            <p class="name">Duffel Bag</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="swiper-slide">
-                    <a class="product_group">
-                        <img src="img/product2.jpg">
-                        <div class="txt">
-                            <p class="name">Duffel Bag</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="swiper-slide">
-                    <a class="product_group">
-                        <img src="img/product2.jpg">
-                        <div class="txt">
-                            <p class="name">Duffel Bag</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="swiper-slide">
-                    <a class="product_group">
-                        <img src="img/product2.jpg">
-                        <div class="txt">
-                            <p class="name">Duffel Bag</p>
-                        </div>
-                    </a>
-                </li>
-                
-            </ul>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-    <section class="sns">
-        <div class="sns_link">
-            <img src="img/icon-instar.png">
-            <a href="https://www.instagram.com/unloader_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@unloader_official</a>
-        </div>
-        <ul class="banner">
-            <li>
-                <img src="img/br08.jpg">
-            </li>
-            <li>
-                <img src="img/br01.JPG">
-            </li>
-            <li>
-                <img src="img/br03.JPG">
-            </li>
-            <li>
-                <img src="img/br04.JPG">
-            </li>
-            <li>
-                <img src="img/br06.JPG">
-            </li>
-            <li>
-                <img src="img/br10.jpg">
-            </li>
-            <li>
-                <img src="img/br07.jpg">
-            </li>
-            <li>
-                <img src="img/br05.JPG">
-            </li>
-            <li>
-                <img src="img/br09.jpg">
-            </li>
-            <li>
-                <img src="img/br02.JPG">
-            </li>
-        </ul>
-    </section>
-    <div id="footer"></div>
 </body>
 </html>

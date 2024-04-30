@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
       var swiper = new Swiper(".main_slide", {
         slidesPerView: 1,
         spaceBetween: 0,
