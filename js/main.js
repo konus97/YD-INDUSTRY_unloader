@@ -1,18 +1,20 @@
-$(document).ready(function() {
-      var swiper = new Swiper(".main_slide", {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
+  $(function(){
+    var swiper = new Swiper(".main_slide", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
 
+  });
+  $(function(){
     var swiper = new Swiper(".product_slide", {
       slidesPerView: 4,
       spaceBetween: 10,
@@ -47,9 +49,6 @@ $(document).ready(function() {
         },
       },
     });
-
-    
-
 });
 $(document).ready(function() {
 //헤더
@@ -67,20 +66,22 @@ $(document).ready(function() {
     $("header .pc_hover_menu").css({display:"none"});
   });
 
-  var $header = $('header'); // 헤더를 변수에 넣기
+  $(function() {
+    var $header = $('#header'); // 헤더를 변수에 넣기
     var $window = $(window);
-    var pageOffsetTop = $('header').offset().top; // 헤더의 top값 구하기
+    var pageOffsetTop = $header.offset().top; // 헤더의 top값 구하기
     var scrollThreshold = 300; // 스크롤이 변할 위치
-
+  
     $window.resize(function() { // 리사이즈시 top값을 다시 계산
-      pageOffsetTop = $('header').offset().top;
+      pageOffsetTop = $header.offset().top;
     });
-
+  
     $window.on('scroll', function() { 
       var scrolled = $window.scrollTop() >= pageOffsetTop + scrollThreshold; 
       $header.toggleClass('down', scrolled); 
+    });
   });
-
+  
   //서브페이지 더보기 버튼
 $(function(){
   $(".product_list li").slice(0, 4).show(); // 초기갯수
